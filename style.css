@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat Alternates';
+    font-size:15px;
+    color:rgb(0, 132, 255);
+}
+
+section{
+    margin-top: 80px;
+}
+header, footer{
+    padding: 5px;
+    background-color: cyan;
+}
+
+header{
+    top:0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    border-radius: 0 0 20px 20px;
+}
+
+footer{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: rgb(0, 68, 255);
+    position: relative;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+header p{
+    left: 0;
+    font-size: 18px;
+}
+
+header ul{
+    margin-top: 7px;
+    margin-left: 65%;
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li{
+    margin: 0 20px 0 0;
+}
+
+header ul li a{
+    color:rgb(0, 68, 255);
+    padding: 3px;
+    border:1px solid darkblue;
+    border-width: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    color:rgb(0, 132, 255);
+    text-decoration: none;
+}
+
+h1{
+    margin-left: 8%;
+    width: 39%;
+    border: 1px dotted darkblue;
+    border-width: 0 0 1px 0;
+}
+
+.bloc{
+    padding: 3px;
+    margin-left: 20px;
+    width:95%;
+    border: 1px solid darkblue;
+    border-width: 0 0 2px 0;
+}
+
+.bloc p{
+    margin-left: 230px;
+    text-align: center;
+    width: 70%;
+}
+
+.blocc{
+    display:flex;
+    padding: 5px;
+}
+
+.blocchild{
+    width: 40%;
+    margin: 0 20px 0 0 ;
+    padding: 7px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}

@@ -1,0 +1,72 @@
+.blocf form{
+    margin-left: 90px;
+}
+.blocf input[type=submit]{
+    width: 70%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    border: transparent;
+    border-radius: 10px;
+
+}
+
+.blocf input[type=password]{
+    width: 70%;
+    height: 40px;
+    color: white;
+    border-width: 0 0 2px 0;
+    background-color: transparent;
+}
+
+.blocf input[type=text]{
+    width: 70%;
+    padding: 5px;
+    height: 42px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-width: 0 0 2px 0;
+}
+
+
+.v form{
+    margin-left: 15px;
+}
+
+.v input[type=text]{
+    width: 25%;
+    padding: 5px;
+    height: 42px;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
+.v input[type=submit]{
+    width: 10%;
+    height: 42px;
+    color: white;
+    background-color: rgb(0, 204, 255);
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
+
+
+.blocdoc{
+    padding: 2px;
+    margin: 10px;
+}
+
+.blocf{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 450px;
+    border-radius: 50px;
+    background-color: rgba(0, 162, 255, 0.514);
+}
+
+.custom{
+    width: 16%;
+    margin-top: 90px;
+    margin-left: 548px;
+}

@@ -31,30 +31,32 @@
 
 
 .v form{
-    margin-left: 15px;
+    margin-left: 65%;
 }
 
 .v input[type=text]{
-    width: 25%;
+    width: 55%;
     padding: 5px;
     height: 42px;
-    border: 1px solid darkblue;
+    border: transparent;
     border-radius: 15px;
 }
 
 .v input[type=submit]{
-    width: 10%;
+    width: 30%;
     height: 42px;
     color: white;
     background-color: rgb(0, 204, 255);
-    border: 1px solid darkblue;
+    border: transparent;
     border-radius: 15px;
 }
 
-
 .blocdoc{
-    padding: 2px;
-    margin: 10px;
+    padding: 10px;
+    margin:25px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .blocf{
@@ -69,4 +71,142 @@
     width: 16%;
     margin-top: 90px;
     margin-left: 548px;
+}
+
+.w{
+    font-size: 20px;
+    width: 50%;
+    margin-left:5%;
+}
+
+.first-row, .second-row{
+    display: flex;
+}
+
+.second-row{
+    width: 75%;
+    margin-left: 10%;
+}
+
+.col{
+    flex: 0.333;
+}
+
+.col1{
+    flex: 0.6;
+}
+
+.blocd{
+    padding:10px;
+    margin: 10px 20% 10px 20%;
+}
+
+.custom1{
+    text-align: center;
+    margin: 12px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.custom1:hover{
+    color:white;
+    background-color: rgb(0, 132, 255);
+    border: 1px solid rgb(0, 132, 255);
+    box-shadow: 5px 5px 5px white;
+}
+
+
+.span1{
+    margin-left: 5%;
+    width: 90%;
+    height: 2px;
+    background-color: darkblue;
+}
+
+h2{
+    border: 2px dotted;
+    border-width: 0 0 2px 0;
+    width:30.3%;
+    margin-left: 35%;
+}
+
+.i1, .i2, .i3, .i4, .i5{
+    width: 100px;
+    height: 86px;
+    margin-left: 25%;
+}
+
+.i1{
+    background: url('./res/icons8_book_100px.png');
+}
+
+.i2{
+    height: 88px;
+    background: url('./res/icons8_report_file_100px.png');
+}
+
+.i3{
+    background: url('./res/icons8_project_100px.png');
+}
+
+.i4{
+    margin-left: 30%;
+    background: url('./res/icons8_brief_100px.png');
+}
+
+.i5{
+    margin-left: 30%;
+    background: url('./res/icons8_prototype_100px.png');
+}
+
+.custom1:hover .i1{
+    background:url('./res/icons8_book_100px_1.png');
+}
+
+.custom1:hover .i2{
+    background: url('./res/icons8_report_file_100px_1.png');
+}
+
+.custom1:hover .i3{
+    background: url('./res/icons8_project_100px_1.png');
+}
+
+.custom1:hover .i4{
+    background: url('./res/icons8_brief_100px_1.png');
+}
+
+.custom1:hover .i5{
+    background: url('./res/icons8_prototype_100px_1.png');
+}
+
+
+.blocs{
+    margin: 20px;
+    flex-direction: row;
+
+}
+
+.blocsdoc{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    border-width: 1px 0 1px 0;
+}
+
+.blocus{
+    margin: 3px;
+    display: flex;
+}
+
+.blocsdoc p:nth-child(1){
+    font-size: 25px;
+    margin-left: 10%;
+}
+
+.blocus p:nth-child(1){
+    font-size: 15px;
+}
+
+.blocus p:nth-child(2){
+    margin-left: 5%;
 }

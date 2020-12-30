@@ -1,4 +1,7 @@
-<?php ?>
+<?php
+   session_start();
+   require('user.php');
+ ?>
 <!DOCTYPE html>
 <html>
     <head>

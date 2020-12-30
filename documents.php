@@ -1,9 +1,9 @@
-<?php include("head.php") ?>
-<?php include("header.php") ?>
+<?php ?>
+
 
         <section>
             <div class="v">
-                <form action="search.php" method="POST">
+                <form <?php echo 'action="accueil.php?id='.$_SESSION['user']->getId().'&v=s"' ?> method="POST">
                     <input type="text" placeholder="Entrer le modèle de recherche" name="doc">
                     <input type="submit" name="searched" value="Rechercher">
                 </form>
@@ -58,4 +58,4 @@
                 </div>
                 <br>
         </section>
-        <?php include("footer.php") ?>
+        <?php ?>

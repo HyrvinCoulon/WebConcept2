@@ -1,12 +1,12 @@
 body{
-    background-color: black;
+    background-color: white;
     font-family: 'Montserrat Alternates';
     font-size:15px;
     color:rgb(0, 132, 255);
 }
 
 section{
-    margin-top: 75px;
+    margin-top: 88px;
 }
 header, footer{
     padding: 5px;

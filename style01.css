@@ -12,9 +12,11 @@
 }
 
 .blocf input[type=password]{
+    text-decoration-style: none;
     width: 70%;
     height: 40px;
     color: white;
+    border: solid white;
     border-width: 0 0 2px 0;
     background-color: transparent;
 }
@@ -104,15 +106,15 @@
 .custom1{
     text-align: center;
     margin: 12px;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 132, 255);
     border-radius: 6px;
 }
 
 .custom1:hover{
     color:white;
     background-color: rgb(0, 132, 255);
-    border: 1px solid rgb(0, 132, 255);
-    box-shadow: 5px 5px 5px white;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px rgb(0, 132, 255);
 }
 
 
@@ -194,7 +196,7 @@ h2{
 }
 
 .blocus{
-    margin: 3px;
+    margin: 2px 25px 0 0;
     display: flex;
 }
 
@@ -210,3 +212,55 @@ h2{
 .blocus p:nth-child(2){
     margin-left: 5%;
 }
+
+.up {
+    width: 50%;
+    padding: 25px;
+    margin-left: 400px;
+    border-radius: 50px;
+    background-color: rgba(0, 162, 255, 0.664);
+}
+
+.up form{
+    margin: 8px;
+}
+
+.up input[type=file]{
+    width: 35%;
+    color: white;
+    background-color: rgb(0, 204, 255);
+    border: transparent;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.up input[type=submit]{
+    width: 30%;
+    height: 42px;
+    margin-left: 33%;
+    color: white;
+    background-color: rgb(0, 204, 255);
+    border: transparent;
+    border-radius: 15px;
+}
+
+.up select{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    width: 45%;
+    margin: 0 10px;
+}
+
+.up select:nth-child(1){
+    margin-left: 250px;
+}
+
+.account{
+    float: left;
+}
+

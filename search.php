@@ -1,8 +1,6 @@
 <?php
-    $bdd = new PDO('mysql:host=localhost;dbname=baseecoles', 'root', ''); 
-    include("head.php") 
+    $bdd = new PDO('mysql:host=localhost;dbname=baseecoles', 'root', '');  
     ?>
-<?php include("header.php") ?>
 <section>
 <div class="v">
                 <form action="search.php" method="POST">
@@ -22,19 +20,35 @@
 
         echo '<div class="blocs">';
         if(!empty($tables)){
-            foreach($tables as $t){
-                echo '<div class="blocsdoc">
-                      <p>'.$t[2].'</p>
-                      <div class="blocus">
-                            <p>'.$t[1].'</p>
-                            <p>'.$t[3].'</p>
-                      </div>
-                      </div>
-                ';
+            if(count($tables)){
+
+                foreach($tables as $t){
+                    echo '<div class="blocsdoc">
+                          <p>'.$t[2].'</p>
+                          <div class="blocus">
+                                <p>'.$t[1].'</p>
+                                <p>'.$t[3].'</p>
+                          </div>
+                          </div>
+                    ';
+                }
+                echo '<br><br><br>';
+            }else{
+                foreach($tables as $t){
+                    echo '<div class="blocsdoc">
+                          <p>'.$t[2].'</p>
+                          <div class="blocus">
+                                <p>'.$t[1].'</p>
+                                <p>'.$t[3].'</p>
+                          </div>
+                          </div>
+                    ';
+                }
             }
+            
         }
         echo '</div>';
       }
     ?>
 </section>
-<?php include("footer.php") ?>
+<?php ?>

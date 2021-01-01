@@ -1,8 +1,8 @@
 .blocf form{
-    margin-left: 90px;
+    margin-left: 80px;
 }
 .blocf input[type=submit]{
-    width: 70%;
+    width: 75%;
     height: 40px;
     color: black;
     background-color: white;
@@ -11,9 +11,17 @@
 
 }
 
+.blocf select{
+    width: 75%;
+    color: black;
+    border: solid white;
+    border-width: 0 0 2px 0;
+    background-color: transparent;
+}
+
 .blocf input[type=password]{
     text-decoration-style: none;
-    width: 70%;
+    width: 75%;
     height: 40px;
     color: white;
     border: solid white;
@@ -22,7 +30,7 @@
 }
 
 .blocf input[type=text]{
-    width: 70%;
+    width: 75%;
     padding: 5px;
     height: 42px;
     color: white;
@@ -62,7 +70,7 @@
 }
 
 .blocf{
-    width: 30%;
+    width: 35%;
     margin-top: 40px;
     margin-left: 450px;
     border-radius: 50px;
@@ -191,8 +199,13 @@ h2{
 .blocsdoc{
     margin: 5px;
     padding: 5px;
-    border: 1px solid white;
+    border: 1px solid rgb(0, 132, 255);
     border-width: 1px 0 1px 0;
+}
+
+.blocsdoc a{
+    margin-left: 95%;
+    text-decoration: none;
 }
 
 .blocus{

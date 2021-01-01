@@ -1,0 +1,37 @@
+.account, .abloc{
+    float: left;
+}
+.account{
+    height: 100%;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid rgb(0, 132, 255);
+    border-width: 0 1px 0 0;
+    margin: 0 10px 10px 0;
+}
+
+.icon{
+    margin-left: 38%;
+    border: 1px solid rgb(0, 132, 255);
+    border-radius:44%;
+    top: 0;
+    width: 100px;
+    height: 90px;
+    background: url('./res/icons8_administrator_male_100px.png');
+}
+
+.abloc ul{
+    list-style-type: none;
+}
+
+.abloc li{
+    width: 100%;
+    margin: 0 0 7px 0;
+    border: 1px solid rgb(0, 132, 255);
+    border-left:1px;
+    border-right: 1px;
+}
+
+.abloc ul li a{
+    text-decoration: none;
+}

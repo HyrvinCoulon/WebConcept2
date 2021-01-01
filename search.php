@@ -18,36 +18,41 @@
         
         $tables = $statement->fetchAll(PDO::FETCH_NUM);
 
-        echo '<div class="blocs">';
         if(!empty($tables)){
+            echo '<div class="blocs">';
             if(count($tables)){
 
                 foreach($tables as $t){
+                    $name = str_replace(".pdf", "", $t[2]);
                     echo '<div class="blocsdoc">
-                          <p>'.$t[2].'</p>
+                          <p>Titre : '.$name.'</p>
                           <div class="blocus">
-                                <p>'.$t[1].'</p>
-                                <p>'.$t[3].'</p>
+                                <p> Etablissement : '.$t[1].'</p>
+                                <p>Type : '.$t[3].'</p>
                           </div>
+                          <a href="display.php?id='.$t[0].'">Voir</a>
                           </div>
                     ';
                 }
                 echo '<br><br><br>';
             }else{
                 foreach($tables as $t){
+                    $name = str_replace(".pdf", "", $t[2]);
                     echo '<div class="blocsdoc">
-                          <p>'.$t[2].'</p>
+                          <p> Titre :'.$name.'</p>
                           <div class="blocus">
-                                <p>'.$t[1].'</p>
-                                <p>'.$t[3].'</p>
+                                <p> Etablissement : '.$t[1].'</p>
+                                <p>Type : '.$t[3].'</p>
                           </div>
+                          <a href="display.php?id='.$t[0].'">Voir</a>
                           </div>
                     ';
                 }
             }
-            
+            echo '</div>';   
+        }else{
+            echo "Recherches pour $doc: Aucun Résultats Correspondants";
         }
-        echo '</div>';
       }
     ?>
 </section>

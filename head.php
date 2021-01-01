@@ -11,5 +11,6 @@
         <link rel="stylesheet" type="text/css" href="bootstrap-4.5.0-dist/css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="style01.css">
+        <link rel="stylesheet" type="text/css" href="accountstyle.css">
     </head>
 <?php ?>

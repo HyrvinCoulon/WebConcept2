@@ -24,7 +24,7 @@
                             <div class="blocdcoc col custom1">
                                 <div class="i1"></div>
                                 <br>
-                                <p>Cours ou Livres</p>
+                                <?php echo '<a href="accueil.php?id='.$_SESSION['user']->getId().'&v=s&c=Cours">Cours ou Livres</a>'; ?>
                             </div>
 
                             <div class="blocdcoc col custom1">

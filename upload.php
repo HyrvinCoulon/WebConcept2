@@ -16,10 +16,7 @@
      }
 
 ?>
-<?php include("head.php") ?>
 
-
-<section>
     <div class="up">
         <form action="upload.php" method="POST" enctype="multipart/form-data">
             <label>Type de Documents: </label><select name="lib" >
@@ -41,6 +38,7 @@
             <input type="submit" name="upload">
         </form>
     </div>
-</section>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br>
 
 <?php include("footer.php") ?>

@@ -30,32 +30,26 @@
                             <div class="blocdcoc col custom1">
                                 <div class="i2"></div>
                                 <br>
-                                <p>Rapport de Stage</p>
+                                <?php echo '<a href="accueil.php?id='.$_SESSION['user']->getId().'&v=s&c=Rapport">Rapport de Stage</a>'; ?>
                             </div>
                             
                             <div class="blocdcoc col custom1">
                                 <div class="i3"></div>
                                 <br>
-                                <p>Projet Tuteuré</p>
+                                <?php echo '<a href="accueil.php?id='.$_SESSION['user']->getId().'&v=s&c=Mémoire">Mémoires de Fin de cycle</a>'; ?>
                             </div>
                         </div>
                     <div class="second-row">
                             <div class="blocdcoc col1 custom1">
                                 <div class="i4"></div>
                                 <br>
-                                <p>Mémoires de Fin Cycle</p>
-                            </div>
-                            
-                            <div class="blocdcoc col1 custom1">
-                                <div class="i5"></div>
-                                <br>
-                                <p>Sujet de Thèse</p>
+                                <?php echo '<a href="accueil.php?id='.$_SESSION['user']->getId().'&v=s&c=Projet">Projet Tuteuré</a>'; ?>
                             </div>
                         </div>    
                     </div>
                 <div class="span1"> 
                      <span></span>   
                 </div>
-                <br>
+                <br><br><br>
         </section>
         <?php ?>

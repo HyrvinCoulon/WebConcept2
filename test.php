@@ -16,6 +16,7 @@ require('user.php');
          $userinfo = $reqcon->fetch();
 
          $_SESSION['user'] = new User($userinfo['id'], $userinfo['nom'],$userinfo['fonction'], $userinfo['motdepasse']);
+         //$_SESSION['user']-setId();
 
          if($userexist == 1){
              header("Location: accueil.php?id=".$_SESSION['user']->getId()."&v=");

@@ -12,7 +12,7 @@
        public function __construct($i, $n, $m, $pass){
         $this->id = $i;
         $this->nom = $n;
-        $this->matricule = $m;
+        $this->type_user = $m;
         $this->password = $pass;
       }
 

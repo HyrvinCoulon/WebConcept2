@@ -15,12 +15,12 @@
         <header>
         <?php echo '<p>Bienvenue, '.$_SESSION['user']->getNom().'</p>
             <ul>
-                <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=">Acceuil</a></li>
+                <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=">Accueil</a></li>
                 <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=d">Documents</a></li>
                 <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a">Compte</a></li>';
             ?>
-                <li><a href="#">Feedback</a></li>
-                <li><a href="#">Help</a></li>
+                <li><a href="#">Deconnexion</a></li>
+                <!-- <li><a href="#">Help</a></li> -->
             </ul>
         </header>
 <?php ?>

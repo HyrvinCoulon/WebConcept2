@@ -80,7 +80,7 @@
 .custom{
     width: 16%;
     margin-top: 90px;
-    margin-left: 548px;
+    margin-left: 575px;
 }
 
 .w{
@@ -96,6 +96,14 @@
 .second-row{
     width: 75%;
     margin-left: 10%;
+}
+
+.second-row .custom1{
+    margin-left: 35%;
+}
+
+.second-row .custom1 a{
+    margin-left: 5%;
 }
 
 .col{
@@ -222,6 +230,11 @@ h3{
     text-decoration: none;
 }
 
+
+.display .blocsdoc a{
+    margin-left: 85%;
+}
+
 .blocsdoc button{
     margin: 0 20px 0 0;
     margin-left: 80%;
@@ -247,11 +260,9 @@ h3{
 }
 
 .up {
-    width: 50%;
-    padding: 25px;
-    margin-left: 400px;
-    border-radius: 50px;
-    background-color: rgba(0, 162, 255, 0.664);
+    margin-top: 10%;
+    width: 100%;
+    padding: 2px;
 }
 
 .up form{

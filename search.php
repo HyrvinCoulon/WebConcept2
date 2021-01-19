@@ -1,8 +1,6 @@
 <?php
     $bdd = new PDO('mysql:host=localhost;dbname=baseecoles', 'root', '');  
-       function set_favorite(){
-
-       }
+    
     ?>
 <section>
     <?php //include('favorite.php'); ?>

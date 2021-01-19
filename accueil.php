@@ -17,5 +17,6 @@
         break;
      }
   ?>
+  <br><br>
         
     <?php include("footer.php") ?>

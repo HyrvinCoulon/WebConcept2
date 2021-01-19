@@ -5,9 +5,10 @@
     height: 100%;
     padding: 5px;
     margin: 2px;
-    border: 1px solid rgb(0, 132, 255);
-    border-width: 0 1px 0 0;
-    margin: 0 10px 10px 0;
+    width: 70%;
+    /*border: 1px solid rgb(0, 132, 255);
+     border-width: 0 1px 0 0; */
+    margin: 0 10px 5px 0;
 }
 
 .icon{
@@ -34,4 +35,9 @@
 
 .abloc ul li a{
     text-decoration: none;
+}
+
+.display{
+    float: right;
+    width: 75%;
 }

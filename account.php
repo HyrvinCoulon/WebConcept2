@@ -24,9 +24,10 @@
                                 <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a&display=">Informations utilisateurs</a></li>';
                           break;
                           case "administrateur":
-                            echo '<li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a&display=shelve">Bibliothèque Personnel</a></li>
-                                <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a&display=add">Ajouter Documents</a></li>
-                                <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a&display=">Informations utilisateurs</a></li>';
+                            echo '
+                                 <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a&display=visitor">Adhérents du site</a></li>
+                                <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a&display=add">Ajouter Utilisateurs</a></li>
+                                <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=a&display=">Informations utilisateur</a></li>';
                           break;
                       }
                      
@@ -40,7 +41,10 @@
                         include("shelve.php");
                      break;
                      case 'add':
-                        include("upload.php");
+                        include("uploadAdmin.php");
+                     break;
+                     case 'visitor':
+                        include("visitorListe.php");
                      break;
                  }
              ?>

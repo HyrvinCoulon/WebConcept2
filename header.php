@@ -13,7 +13,7 @@
 ?>
 <body>
         <header>
-        <?php echo '<p>Bienvenue, '.$_SESSION['user']->getNom().'</p>
+        <?php echo '<p>Bienvenue, '.$_SESSION['user']->getNom().'. </p>
             <ul>
                 <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=">Accueil</a></li>
                 <li><a href="accueil.php?id='.$_SESSION['user']->getId().'&v=d">Documents</a></li>
